@@ -13,8 +13,8 @@ Defines an event in the life of an ordinary socket, usually these events are tur
 
 * **name:** a string with the name for this event
 * **action:** a string with the action for this event ('on', or 'off')
-* **workday:** a timedelta when the event should occur a workday 
-* **holiday:** a timedelta when the event should occur a holiday 
+* **workday:** a timedelta when the event should occur on workday 
+* **holiday:** a timedelta when the event should occur on holiday 
 
 To generate a more realistic data, you should add some randomness with [randrange()](https://docs.python.org/3.7/library/random.html?highlight=randrange#random.randrange)
 
